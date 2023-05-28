@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- lien pour les icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- le header -->
+    <header class="header">
+        <a class="logo">Lycoris<span>Blue</span></a>
+
+        <img src="img/icons8-hamburger-menu-64.png" class='bx bx-menu' id="menu-icon">
+
+        <nav class="navbar">
+            <ul>
+                <a href="#home" onclick="exit()" class="active">Accueil</a>
+                <a href="#about" onclick="exit()">A propos</a>
+                <a href="#services" onclick="exit()">Services</a>
+                <a href="#portfolio" onclick="exit()">Portfolio</a>
+                <a href="#contact" onclick="exit()">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- design de la section home-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>LostVayne Atful</h1>
+            <h3>And I'am Beginners <span class="change"> </span></h3>
+            <p>Découvrez mes projets les plus récents et mes réalisations passées dans des domaines variés tels que la
+                photographie, le design graphique et la vidéo. Plongez dans mon travail et laissez-vous inspirer.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+        <div class="home-img">
+            <img src="img/undraw_reading_time_re_phf7.svg" alt="Kirigaya Kazuto">
+        </div>
+    </section>
+
+    <!-- section design About  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/undraw_choosing_house_re_1rv7.svg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">A propos de <span>Moi ...</span></h2>
+            <h3>FrontEnd Developer</h3>
+            <p>Bonjour et bienvenue sur mon site portfolio ! Je suis Lostvayne, un Etudiant passionné par la création visuelle. À travers ce site, je vous invite à découvrir mes projets les plus récents et mes réalisations passées dans des domaines variés tels que la photographie, le design graphique et la vidéo. Mon objectif est de vous inspirer et de vous faire voyager à travers mon univers créatif. N'hésitez pas à parcourir mes travaux et à me contacter si vous avez des questions ou des projets à me proposer.</p>
+            <a href="#" class="btn">Lire plus</a>
+        </div>
+
+    </section>
+
+    <!-- section design home About  -->
+    <section class="services" id="services">
+        <h2 class="heading">Nos <span>Services</span></h2>
+        <div class="services-container">
+
+            <!--Box 3-->
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Concevons ensemble des sites web modernes et intuitifs pour une présence en ligne efficace.
+                    Avec ma passion pour la création de sites fonctionnels et esthétiques, je suis convaincu de fournir des solutions personnalisées pour répondre à vos besoins spécifiques
+                </p>
+                <a href="#" class="btn">Lire plus</a>
+            </div>
+
+            <!--Box 3-->
+            <div class="service-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>vec une passion pour le design et une attention méticuleuse aux détails, je suis déterminé(e) à fournir des
+                    designs qui feront ressortir votre entreprise ou votre projet.</p>
+                <a href="#" class="btn">Lire plus</a>
+            </div>
+
+            <!--Box 3-->
+            <div class="service-box">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <h3>Digital Marketing</h3>
+                <p>LoBooster votre présence en ligne et atteindre vos objectifs de croissance avec une stratégie de marketing
+                    digital sur mesure. Avec une expertise en marketing numérique et une passion pour l'innovation, je suis
+                    déterminé(e) à aider votre entreprise à se démarquer dans un monde en constante évolution.</p>
+                <a href="#" class="btn">Lire plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section design Portfolio  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/pexels-hasan-albari-1229861.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        
+        
+        
+            <div class="portfolio-box">
+                <img src="img/pexels-karsten-madsen-18104.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        
+        
+        
+            <div class="portfolio-box">
+                <img src="img/pexels-lukas-296115.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        
+        
+        
+            <div class="portfolio-box">
+                <img src="img/pexels-melike-benli-11451731.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        
+        
+        
+            <div class="portfolio-box">
+                <img src="img/pexels-life-of-pix-7974 .jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        
+        
+        
+            <div class="portfolio-box">
+                <img src="img/pexels-pixabay-39284.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, enim.</p>
+                    <a href="#"><img src="img/img/mark_email_unread_FILL0_wght400_GRAD0_opsz48.png" alt="#"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section design Portfolio  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Other Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input class="btn" type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By <span>LycorisBlue</span> All Right Reserved.</p>
+        </div>
+        <div class="footer-icon-top">
+            <a href="#home">Home</a>
+        </div>
+    </footer>
+
+
+    <!-- scroll revealK -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
