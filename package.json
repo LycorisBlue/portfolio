@@ -4,6 +4,7 @@
   "private": true,
   "version": "1.0.0",
   "author": "Fulgence G MEDI <g.fulgence.medi@hotmail.com>",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

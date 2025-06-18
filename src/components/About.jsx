@@ -5,17 +5,17 @@ const About = () => {
         {
             icon: Code2,
             title: "Innovation",
-            description: "Utilisation des dernières technologies pour créer des solutions modernes et performantes."
+            description: "J'adopte les technologies émergentes comme Flutter et React pour créer des solutions modernes et performantes qui répondent aux défis actuels."
         },
         {
             icon: Zap,
             title: "Performance",
-            description: "Optimisation constante pour des applications rapides et efficaces."
+            description: "Optimisation constante des architectures et du code pour des applications rapides, scalables et efficaces en production."
         },
         {
             icon: Users,
             title: "Collaboration",
-            description: "Travail en équipe et communication transparente pour des projets réussis."
+            description: "Travail en équipe agile avec une communication transparente pour livrer des projets qui dépassent les attentes."
         }
     ];
 
@@ -30,16 +30,46 @@ const About = () => {
                 </div>
 
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
-                    {/* Biography */}
+                    {/* Personal Info */}
                     <div className="space-y-6">
                         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300">
-                            <h3 className="text-2xl font-semibold mb-4 text-white">Mon parcours</h3>
-                            <p className="text-gray-300 leading-relaxed mb-4">
-                                Passionné par le développement depuis plus de 5 ans, je me spécialise dans la création d'applications web et mobile performantes. Mon expertise couvre l'ensemble du cycle de développement, de la conception d'architecture à la mise en production.
-                            </p>
-                            <p className="text-gray-300 leading-relaxed">
-                                J'accompagne mes clients dans leurs projets de transformation digitale en proposant des solutions sur mesure, robustes et évolutives. Mon approche privilégie la qualité du code, l'expérience utilisateur et les bonnes pratiques de développement.
-                            </p>
+                            <h3 className="text-2xl font-semibold mb-6 text-white">Qui suis-je ?</h3>
+
+                            <div className="space-y-4">
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-2 h-2 bg-white/50 rounded-full mt-2"></div>
+                                    <div>
+                                        <h4 className="text-white font-medium mb-1">Localisation</h4>
+                                        <p className="text-gray-400 text-sm">Abidjan, Côte d'Ivoire</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-2 h-2 bg-white/50 rounded-full mt-2"></div>
+                                    <div>
+                                        <h4 className="text-white font-medium mb-1">Formation</h4>
+                                        <p className="text-gray-400 text-sm">Licence en Informatique Développeur d'Application</p>
+                                        <p className="text-gray-400 text-xs">École supérieure des hautes études technologiques</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-2 h-2 bg-white/50 rounded-full mt-2"></div>
+                                    <div>
+                                        <h4 className="text-white font-medium mb-1">Expérience</h4>
+                                        <p className="text-gray-400 text-sm">3+ années en développement Full-Stack</p>
+                                        <p className="text-gray-400 text-xs">Spécialisé en architecture logicielle et mobile</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-2 h-2 bg-white/50 rounded-full mt-2"></div>
+                                    <div>
+                                        <h4 className="text-white font-medium mb-1">Passion</h4>
+                                        <p className="text-gray-400 text-sm">Innovation technologique et solutions créatives</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

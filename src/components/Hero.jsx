@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
                 <div className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-                        Fulgence G MEDI
+                        Medi Gouandeuh Fulgence
                     </h1>
 
                     <div className="h-1 w-32 bg-gradient-to-r from-transparent via-white to-transparent mx-auto mb-8 opacity-50"></div>
@@ -36,20 +36,23 @@ const Hero = () => {
                     </p>
 
                     <p className="text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                        Je conçois et développe des solutions web et mobile innovantes avec une approche moderne et une architecture robuste.
+                        Expert en développement web et mobile avec React, Flutter et Node.js. Je conçois l'architecture complète de vos projets, de la conception à la mise en production, en passant par le déploiement et l'optimisation des performances.
                     </p>
 
                     {/* Social Links */}
                     <div className="flex justify-center space-x-6 mb-12">
                         {[
-                            { icon: Github, href: "#", label: "GitHub" },
-                            { icon: Linkedin, href: "#", label: "LinkedIn" },
-                            { icon: Mail, href: "#contact", label: "Contact" }
+                            { icon: Github, href: "https://github.com/LycorisBlue", label: "GitHub" },
+                            { icon: Linkedin, href: "https://linkedin.com/in/fulgence-medi", label: "LinkedIn" },
+                            { icon: Mail, href: "mailto:g.fulgence.medi@hotmail.com", label: "Contact" }
                         ].map((social, index) => (
                             <a
                                 key={social.label}
                                 href={social.href}
-                                className={`p-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+                                target={social.href.startsWith('http') ? "_blank" : "_self"}
+                                rel={social.href.startsWith('http') ? "noopener noreferrer" : ""}
+                                className={`p-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110 ${isVisible ?
+                                    "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                                     }`}
                                 style={{ transitionDelay: `${index * 100}ms` }}
                             >
