@@ -1,3 +1,4 @@
+// src/components/Navigation.jsx
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -16,6 +17,8 @@ const Navigation = () => {
     const navItems = [
         { href: "#accueil", label: "Accueil" },
         { href: "#apropos", label: "À propos" },
+        { href: "#parcours", label: "Parcours" },
+        { href: "#startup", label: "Ma Startup" },
         { href: "#competences", label: "Compétences" },
         { href: "#projets", label: "Projets" },
         { href: "#services", label: "Services" },
