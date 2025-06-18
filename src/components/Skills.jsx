@@ -11,8 +11,8 @@ const Skills = () => {
             description: "Spécialisation en applications cross-platform",
             skills: [
                 { name: "Flutter", level: 95, experience: "3+ ans", projects: ["EduNova", "SmilePay", "ANSUT Digital"] },
-                { name: "React Native", level: 75, experience: "2 ans", projects: ["Projets clients"] },
-                { name: "Android Native", level: 70, experience: "1.5 ans", projects: ["Applications natives"] },
+                { name: "React Native", level: 75, experience: "1 ans", projects: ["Projets clients"] },
+                { name: "Android Native", level: 70, experience: "1 ans", projects: ["Applications natives"] },
                 { name: "iOS", level: 65, experience: "1 an", projects: ["Développement iOS"] }
             ]
         },
@@ -21,7 +21,7 @@ const Skills = () => {
             title: "Développement Web",
             description: "Applications web modernes et performantes",
             skills: [
-                { name: "React.js", level: 90, experience: "3 ans", projects: ["RailTrack", "LYS Gestion"] },
+                { name: "Framework Web", level: 90, experience: "3 ans", projects: ["RailTrack", "LYS Gestion"] },
                 { name: "Node.js", level: 85, experience: "3 ans", projects: ["Backends multiples", "APIs"] },
                 { name: "JavaScript", level: 92, experience: "3+ ans", projects: ["Tous projets web"] },
                 { name: "PHP", level: 75, experience: "2 ans", projects: ["Epsilon TAC", "Projets legacy"] },
@@ -35,7 +35,7 @@ const Skills = () => {
             description: "IA et solutions intelligentes",
             skills: [
                 { name: "Machine Learning", level: 80, experience: "2 ans", projects: ["EduNova", "Personnalisation"] },
-                { name: "IA Conversationnelle", level: 75, experience: "1.5 ans", projects: ["EduNova Chatbot"] },
+                { name: "IA Conversationnelle", level: 75, experience: "1 ans", projects: ["EduNova Chatbot"] },
                 { name: "Analyse de Données", level: 70, experience: "1.5 ans", projects: ["Analytics projets"] },
                 { name: "Vision par Ordinateur", level: 60, experience: "1 an", projects: ["Projets R&D"] }
             ]
@@ -49,8 +49,8 @@ const Skills = () => {
                 { name: "Git/GitHub", level: 95, experience: "3+ ans", projects: ["Tous projets"] },
                 { name: "Géolocalisation", level: 80, experience: "2 ans", projects: ["RailTrack", "Bassia Taxi"] },
                 { name: "REST APIs", level: 90, experience: "3 ans", projects: ["Backends multiples"] },
-                { name: "Microservices", level: 75, experience: "1.5 ans", projects: ["Architecture SITARAIL"] },
-                { name: "Firebase", level: 70, experience: "2 ans", projects: ["Apps mobiles"] }
+                { name: "Microservices", level: 75, experience: "1 ans", projects: ["Architecture SITARAIL"] },
+                { name: "Firebase", level: 70, experience: "1 ans", projects: ["Apps mobiles"] }
             ]
         }
     ];
@@ -66,19 +66,19 @@ const Skills = () => {
         },
         {
             title: "Node.js Complete",
-            platform: "Udemy",
+            platform: "Dyma",
             year: "2024",
             verified: true
         },
         {
             title: "Flutter Development",
-            platform: "W3 Schools",
+            platform: "Dyma",
             year: "2024",
             verified: true
         },
         {
             title: "React.js Expert",
-            platform: "Udemy",
+            platform: "Dyma",
             year: "2024",
             verified: true
         }

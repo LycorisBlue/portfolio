@@ -12,7 +12,7 @@ const Footer = () => {
         },
         {
             icon: Globe,
-            href: "https://lycorisblue.com",
+            href: "https://fulgencemedi.medev-group.com/",
             label: "Portfolio"
         },
         {
@@ -59,7 +59,7 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center text-gray-400">
                                 <Mail size={14} className="mr-2" />
-                                lycorisblue99@gmail.com
+                                g.fulgence.medi@hotmail.com
                             </div>
                             <div className="flex items-center text-gray-400">
                                 <Phone size={14} className="mr-2" />

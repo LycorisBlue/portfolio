@@ -2,7 +2,7 @@
 
 export const startupInfo = {
     name: "MEDEV GROUP",
-    tagline: "Innovation serving communities and organizations",
+    tagline: "L'innovation au service des communautés et des organisations",
     description: "Startup fondée par cinq jeunes passionnés de technologie. Nous concevons des produits technologiques innovants adaptés aux réalités africaines et offrons des services numériques personnalisés pour accompagner les organisations dans leur transformation digitale.",
     mission: "Fournir des solutions numériques innovantes, accessibles et efficaces. Encourager et promouvoir l'innovation locale en technologie. Contribuer au développement durable à travers des projets.",
     vision: "Devenir un leader africain de l'innovation technologique en offrant des solutions numériques durables et accessibles qui transforment les organisations et améliorent la qualité de vie des communautés.",
@@ -248,30 +248,31 @@ export const teamMembers = [
 
 export const achievements = [
     {
-        title: "Projets Gouvernementaux",
-        description: "Contrats avec institutions publiques (SITARAIL, ARTCI)",
-        year: "2024-2025",
-        type: "contract"
-    },
-    {
-        title: "Croissance Financière",
-        description: "Revenue projeté de $182K en 2025 vers $1.3M en 2029",
-        year: "2025-2029",
-        type: "financial"
-    },
-    {
-        title: "Innovation Technologique",
-        description: "Solutions IoT, IA et applications multi-plateformes",
+        title: "2ᵉ Prix National d'Excellence",
+        description: "Distinction nationale, deuxième Prix National d'Excellence",
         year: "2024",
-        type: "innovation"
+        type: "award"
     },
     {
-        title: "Impact Social",
-        description: "Solutions pour urgences, éducation et infrastructure",
-        year: "2024-2025",
-        type: "social"
+        title: "Prix Coup de Cœur AGL – Hackathon PangaeaX",
+        description: "Prix Coup de Cœur AGL pour l'application de gestion des crises d’inondation lors du Hackathon PangaeaX Côte d'Ivoire",
+        year: "2024",
+        type: "award"
+    },
+    {
+        title: "Incubation au Centre Yiri / AGL",
+        description: "Intégration au programme d'incubation du centre Yiri d'Africa Global Logistics",
+        year: "2024 - 2025",
+        type: "incubation"
+    },
+    {
+        title: "Hackathon MASS",
+        description: "Participation au Hackathon pré-MASS organisé par l'Agence Spatiale Africaine à Abidjan",
+        year: "2025",
+        type: "event"
     }
 ];
+
 
 export const businessModel = {
     productRevenue: {
