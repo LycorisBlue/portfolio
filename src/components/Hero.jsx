@@ -36,7 +36,7 @@ const Hero = () => {
                     </p>
 
                     <p className="text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                        Expert en développement web et mobile avec React, Flutter et Node.js. Je conçois l'architecture complète de vos projets, de la conception à la mise en production, en passant par le déploiement et l'optimisation des performances.
+                        J’aime transformer des problèmes en solutions durables, faire pousser des idées comme on cultive un arbre — avec patience, structure et vision. Et oui, l’argent suit… forcément.
                     </p>
 
                     {/* Social Links */}
